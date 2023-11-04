@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       body{
+           background: url(reserve.jpg);
+           background-size: 100%;
+           background-position: -100px 0px;
+       }
+        h1{
+            text-align: center;
+            top: 50%;
+            bottom: 50%;
+            color: aliceblue;
+        }
+        form{
+            color: lightseagreen;
+            text-align: center;
+            text-decoration: dashed;
+        }
+     .button{
+         color:white;
+         background-color: green;
+           border-radius: 5px;
+           cursor: pointer;
+     }
+        
+    </style>
+</head>
+<body>
+    
+    <h1>Reserve your table</h1>
+    <form action="info.php" method="post">
+            Name: <input name="name" type="text" /> <br /><br>
+            Contact Number:<input type="number"><br><br>
+            Email ID:<input type="email"><br><br>
+            Number of Members: <input max="90" min="1" name="age" step="1" type="number" value="" /> <br /><br>
+            Date:<input type="date"><br><br>
+            Time:<input type="time"><br><br>
+            <input type="button"class="button" value="Submit" >
+    </form>
+</body>
+</html>

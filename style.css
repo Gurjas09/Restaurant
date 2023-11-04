@@ -1,0 +1,68 @@
+h1{
+
+    border-radius: 40px;
+    float: center;
+    text-align: center;
+    text-decoration: dashed;
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar ul{
+        overflow: auto;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 8px;
+    margin: 4px;
+    
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.navbar{
+   color: white;
+    background-color: darkgreen;
+    border-radius: 40px;
+    
+}
+.navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color:black;
+           border-radius: 40px;
+          
+            
+        }
+      
+     .search{
+         float: right;
+     }
+     #home{
+         background-image: url(interior3.jpg);
+         position:absolute;
+         height: 100%;
+         width: 100%;
+     }
+     p{
+         font-size: large;
+         font-weight: 200;
+         text-align: center;
+         color: white;
+         font-size: 1.5rem;
+       
+     }
+     
+     
+      
+    
